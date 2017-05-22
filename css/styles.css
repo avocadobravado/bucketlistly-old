@@ -1,0 +1,139 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../img/woman.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  transform: rotate(320deg);
+  float: left;
+
+}
+
+.logo .fa {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  font-size: 18px;
+  text-decoration: none;
+  text-shadow: 1px 1px #c0c0c0;
+  color: white;
+  padding: 12px;
+  float: left;
+}
+
+#nav-button1 {
+  border: 2px solid #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  float: right;
+}
+
+#nav-button2 {
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #f0c529;
+  color: #000;
+  float: right;
+  margin-right: 10px;
+}
+
+.main-text {
+  clear: both;
+  text-align: center;
+}
+
+.title {
+  clear: both;
+  text-align: center;
+  font-size: 120px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.logo-yellow {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  background-color: #f0c529;
+  color: #000;
+  border-radius: 100%;
+}
+
+.yellow {
+  padding-top: 25px;
+  font-size: 150px;
+  transform: rotate(320deg);
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 72px;
+  font-weight: normal;
+  margin: 0 40px;
+  font-family: serif;
+}
+
+#top-story-button {
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, .2);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.02em;
+  width: 317px;
+}
+
+#facebook-button {
+  padding: 23px 30px;
+  background-color: #3663b6;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.02em;
+}
+
+.icons {
+  margin-top: 100px;
+}
+
+.icons img {
+  padding: 15px;
+}
+
+.icons p {
+  padding-top: 10px;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
