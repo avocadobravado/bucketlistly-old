@@ -43,6 +43,8 @@ OR...
 
 * HTML
 * CSS
+* Font Awesome
+* Google Fonts
 
 ## License
 
